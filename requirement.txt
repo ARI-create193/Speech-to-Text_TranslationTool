@@ -1,0 +1,9 @@
+import os
+import tkinter as tk
+from tkinter import filedialog, messagebox
+import speech_recognition as sr
+from googletrans import Translator
+from docx import Document
+import PyPDF2
+from pydub import AudioSegment, silence
+from fpdf import FPDF
